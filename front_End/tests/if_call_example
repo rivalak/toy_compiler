@@ -1,0 +1,5 @@
+def foo(x)
+    if x < 3 then
+        1
+    else
+        foo(x-1) + foo(x-2)

@@ -1,4 +1,3 @@
 .vscode/
 *.o
-toy_front
-
+bin/
