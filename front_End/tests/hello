@@ -1,0 +1,5 @@
+def hello1(a b) 
+  1 + a * b;
+
+def hello2(c d)
+  hello1(c, d);

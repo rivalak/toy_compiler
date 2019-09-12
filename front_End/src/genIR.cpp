@@ -90,7 +90,6 @@ Function *FunctionDeclAST::Codegen() {
   for (Function::arg_iterator Arg_It = F->arg_begin(); Idx != Arguments.size();
        ++Arg_It, ++Idx) {
     Arg_It->setName(Arguments[Idx]);
-    // what is this used for?
     Named_Values[Arguments[Idx]] = Arg_It;
   }
 

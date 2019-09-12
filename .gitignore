@@ -1,3 +1,5 @@
 .vscode/
-*.o
 bin/
+CMakeLists.txt
+LLVMConfig.cmake
+LLVMHello.so
