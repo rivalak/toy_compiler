@@ -2,4 +2,4 @@
 bin/
 CMakeLists.txt
 LLVMConfig.cmake
-LLVMHello.so
+LLVMHello.so*
